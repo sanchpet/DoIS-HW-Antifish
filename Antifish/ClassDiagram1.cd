@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Antifish.EmployeeFactory">
+    <Position X="0.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>EmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.SupportEmployee">
+    <Position X="6.5" Y="7.75" Width="3.75" />
+    <InheritanceLine Type="Antifish.AbstractEmployee" ManuallyRouted="true">
+      <Path>
+        <Point X="8.375" Y="2.824" />
+        <Point X="8.375" Y="3.199" />
+        <Point X="10.724" Y="3.199" />
+        <Point X="10.724" Y="7.627" />
+        <Point X="8.375" Y="7.627" />
+        <Point X="8.375" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.AdminFactory">
+    <Position X="0.5" Y="3.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAA=</HashCode>
+      <FileName>EmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ade" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Antifish.AdminEmployee">
+    <Position X="6.5" Y="3.25" Width="3.75" />
+    <InheritanceLine Type="Antifish.AbstractEmployee" ManuallyRouted="true">
+      <Path>
+        <Point X="8.375" Y="2.824" />
+        <Point X="8.375" Y="3.037" />
+        <Point X="8.375" Y="3.037" />
+        <Point X="8.375" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.AbuseFactory">
+    <Position X="0.5" Y="5.5" Width="4.25" />
+    <InheritanceLine Type="Antifish.EmployeeFactory" ManuallyRouted="true">
+      <Path>
+        <Point X="2.625" Y="1.603" />
+        <Point X="2.625" Y="2.47" />
+        <Point X="0.388" Y="2.47" />
+        <Point X="0.388" Y="5.081" />
+        <Point X="2.625" Y="5.081" />
+        <Point X="2.625" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>EmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ae" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Antifish.AbuseEmployee">
+    <Position X="6.5" Y="5.5" Width="3.75" />
+    <InheritanceLine Type="Antifish.AbstractEmployee" ManuallyRouted="true">
+      <Path>
+        <Point X="8.375" Y="2.824" />
+        <Point X="8.375" Y="3.199" />
+        <Point X="10.722" Y="3.199" />
+        <Point X="10.722" Y="5.377" />
+        <Point X="8.375" Y="5.377" />
+        <Point X="8.375" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.AbstractEmployee">
+    <Position X="7.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAACAQCAACAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>AbstractEmployee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Program" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Antifish.SupportFactory">
+    <Position X="0.5" Y="7.75" Width="4.25" />
+    <InheritanceLine Type="Antifish.EmployeeFactory" ManuallyRouted="true">
+      <Path>
+        <Point X="2.625" Y="1.603" />
+        <Point X="2.625" Y="1.978" />
+        <Point X="0.355" Y="1.978" />
+        <Point X="0.355" Y="8.366" />
+        <Point X="0.5" Y="8.366" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>EmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="se" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Antifish.StrategyWebAnalyze">
+    <Position X="22" Y="2.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FishStrategies.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.StrategyWebSearch">
+    <Position X="23.5" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAgAAA=</HashCode>
+      <FileName>FishStrategies.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.FeatureAnalyze">
+    <Position X="26.75" Y="3.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FishStrategies.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.JournalSearch">
+    <Position X="26.75" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>FishStrategies.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.DataBase">
+    <Position X="15.5" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAEAAAAAAAAAAAAAAIoQABAAAAAAAAABAA=</HashCode>
+      <FileName>DataBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Notification" />
+      <Property Name="Report" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Antifish.FishSearchAlgo">
+    <Position X="15.5" Y="3.75" Width="2.5" />
+    <AssociationLine Name="db" Type="Antifish.DataBase" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16" Y="5.623" />
+        <Point X="16" Y="5.923" />
+        <Point X="17" Y="5.923" />
+        <Point X="17" Y="7.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABIUAAAAAAAAAAAAAAAAAABAAAAAAAAgAAA=</HashCode>
+      <FileName>FishSearchAlgo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Antifish.FishSearchFacade">
+    <Position X="11.25" Y="1" Width="2.75" />
+    <AssociationLine Name="Algo" Type="Antifish.FishSearchAlgo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.906" Y="2.68" />
+        <Point X="13.906" Y="4.625" />
+        <Point X="15.5" Y="4.625" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="PersonHandler" Type="Antifish.ReportHandler" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.266" Y="1" />
+        <Point X="12.266" Y="0.625" />
+        <Point X="17.25" Y="0.625" />
+        <Point X="17.25" Y="1.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>hAAAIAAAIAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEA=</HashCode>
+      <FileName>FishSearchFacade.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Algo" />
+      <Property Name="Generator" />
+      <Property Name="PersonHandler" />
+      <Property Name="ScanHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Antifish.Notification">
+    <Position X="20" Y="8" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAABAGAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Outputs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RelatedWebPage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Antifish.PersonReporGenerator">
+    <Position X="20" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ReportGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.PersonReport">
+    <Position X="11" Y="11.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Outputs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.Report">
+    <Position X="11.75" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Outputs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Antifish.ReportGenerator">
+    <Position X="11.25" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReportGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.ReportHandler">
+    <Position X="15.25" Y="1.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAA=</HashCode>
+      <FileName>ReportGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.ScanReporGenerator">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ReportGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.ScanReport">
+    <Position X="15.75" Y="12" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAACAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Outputs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="RelatedWebPages" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Antifish.WebPage">
+    <Position X="21" Y="11.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQgAAAEAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Outputs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antifish.SearchAnalyzeFishSearchAlgo">
+    <Position X="20.25" Y="4.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAACAAAAAgAAA=</HashCode>
+      <FileName>FishSearchAlgo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="analyze" />
+      <Field Name="search" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Antifish.IReport">
+    <Position X="11.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Outputs.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

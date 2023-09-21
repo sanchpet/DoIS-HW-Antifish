@@ -1,0 +1,6 @@
+New peport: 20:24:03 20 сентября 2023 г. Анализ Поиск выполнен с применением шаблоныSearch expression выполнен по характеристикам1, 0, 3, 2
+New peport: 8:15:41 21 сентября 2023 г. Анализ Поиск выполнен с применением шаблоныVery important expression выполнен по характеристикам1, 0, 3, 2
+New peport: 12:51:09 21 сентября 2023 г. vk1.comSystem.Collections.Generic.Dictionary`2[Antifish.WebPage,System.String]
+New peport: 12:51:09 21 сентября 2023 г. ok2.ruSystem.Collections.Generic.Dictionary`2[Antifish.WebPage,System.String]
+New peport: 12:54:01 21 сентября 2023 г. vk1.comFishing
+New peport: 12:54:01 21 сентября 2023 г. ok2.ruFishing
