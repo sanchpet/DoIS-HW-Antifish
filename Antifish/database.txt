@@ -4,3 +4,9 @@ New peport: 12:51:09 21 сентября 2023 г. vk1.comSystem.Collections.Gene
 New peport: 12:51:09 21 сентября 2023 г. ok2.ruSystem.Collections.Generic.Dictionary`2[Antifish.WebPage,System.String]
 New peport: 12:54:01 21 сентября 2023 г. vk1.comFishing
 New peport: 12:54:01 21 сентября 2023 г. ok2.ruFishing
+New peport: 13:07:35 21 сентября 2023 г. vk1.comFishing
+New peport: 13:07:35 21 сентября 2023 г. ok2.ruFishing
+New peport: 13:07:37 21 сентября 2023 г. vk1.comFishing
+New peport: 13:07:37 21 сентября 2023 г. ok2.ruFishing
+New peport: 19:29:36 21 сентября 2023 г. vk1.comFishing
+New peport: 19:29:36 21 сентября 2023 г. ok2.ruFishing

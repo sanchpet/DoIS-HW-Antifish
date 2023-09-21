@@ -1,11 +1,11 @@
 ﻿namespace Antifish
 {
-    internal abstract class EmployeeFactory
+    public abstract class EmployeeFactory
     {
         public abstract AbstractEmployee CreateEpmloyee(string login, string email);
     }
 
-    internal class AdminFactory : EmployeeFactory
+    public class AdminFactory : EmployeeFactory
     {
         AdminEmployee ade;
         public override AbstractEmployee CreateEpmloyee(string login, string email)
@@ -15,7 +15,7 @@
         }
     }
 
-    internal class AbuseFactory : EmployeeFactory
+    public class AbuseFactory : EmployeeFactory
     {
         AbuseEmployee ae;
 
@@ -26,7 +26,7 @@
         }
     }
 
-    internal class SupportFactory : EmployeeFactory
+    public class SupportFactory : EmployeeFactory
     {
         SupportEmployee se;
         public override AbstractEmployee CreateEpmloyee(string login, string email)
